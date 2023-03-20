@@ -1,5 +1,5 @@
 {
-  "name": "inthebox-backend",
+  "name": "instock-backend",
   "version": "1.0.0",
   "description": "inthebox-backend",
   "main": "index.js",
@@ -15,7 +15,7 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "fs": "^0.0.1-security",
-    "knex": "^2.3.0",
+    "knex": "^2.4.2",
     "mysql": "^2.18.1",
     "uuid": "^9.0.0"
   }

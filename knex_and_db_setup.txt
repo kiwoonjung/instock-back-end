@@ -9,9 +9,9 @@ mysqld
 mysql -u root -p
 ---> enter your password ---> rootroot
 
-CREATE DATABASE inthebox;
+CREATE DATABASE instock;
 
-USE inthebox;
+USE instock;
 
 exit --> to exit from the mysql terminal 
 
