@@ -1,0 +1,20 @@
+Run the following in the terminal to get your database setup with the initial dataset.
+Ensure the .env file you have uses the correct password you set when installing mysql. 
+
+
+npm i knex mysql
+
+mysqld
+
+mysql -u root -p
+---> enter your password ---> rootroot
+
+CREATE DATABASE inthebox;
+
+USE inthebox;
+
+exit --> to exit from the mysql terminal 
+
+npx knex migrate:latest
+
+npx knex seed:run
